@@ -1,0 +1,48 @@
+/* 1.static default
+2.relative
+3.absloute
+4.sticky
+5.fixed */
+
+body{
+       margin: 0;
+       padding: 0;
+}
+.container{
+       border: 2px solid;
+       padding: 20px;
+       margin: 20px;
+       position: relative;
+       height: 200px;
+       overflow: scroll;
+}
+.container div{
+       border: 2px solid;
+       margin: 50px 0px;
+       padding: 20px;
+}
+.box-5{
+       background-color: gray;
+       position: relative;
+       /* top: ;
+       right: ; */
+       bottom: 80px;
+       left:200px ;
+       z-index: -1;
+}
+.box-4{
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 80%;
+}
+.box-3{
+       position: sticky;
+       top: 150px;
+}
+.box-2{
+       position: fixed;
+       top: 50px;
+       z-index: 999;
+       background-color: red;
+}

@@ -1,0 +1,42 @@
+*{
+       margin: 0;
+       padding: 0;
+}
+h1{
+       border: 1px solid;
+       border-top: 10px solid;
+       border-bottom:20px dashed;
+       padding: 20px 10px 40px 5px;
+       margin: 10px 20px;
+       height: 100px;
+       width: 200px;
+       /*
+       padding-left: ;
+       padding-top: ;
+       padding-bottom: ;
+       padding-right: ; 
+       margin: 10px 20px 30px 40px;
+       */
+}
+span{
+       display: inline-block;
+       border: 1px solid;
+       border-top: 10px solid;
+       border-bottom:20px dashed;
+       padding: 20px 10px 40px 5px;
+       margin: 10px 20px;
+       height: 100px;
+       width: 200px;
+}
+img{
+       width: 300px;
+}
+.img1{
+       float: left;
+}
+.img2{
+       float: right;
+}
+p{
+       clear: both;
+}
