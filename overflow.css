@@ -1,0 +1,25 @@
+/* overflow properties
+visible
+hidden
+auto
+scroll */
+p{
+       border: 2px solid;
+       padding: 10px ;
+       margin: 10px;
+       height: 100px;
+       width: 200px;
+}
+.hidden{
+       overflow: hidden;
+}
+.auto{
+       font-size: 32px;
+       overflow: auto;
+}
+.scrool{
+ overflow-x: scroll;
+}
+.visible{
+      overflow: visible;
+}
