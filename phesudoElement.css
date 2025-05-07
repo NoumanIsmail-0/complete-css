@@ -1,0 +1,40 @@
+/* phesudo classes */
+h1{
+       background-color: #dcdcdc;
+       transition: all 3s;
+}
+/* mouse */
+h1:hover{
+       background-color: aquamarine;
+       text-align: center;
+       color: brown;
+}
+h1:hover+h2{
+       background-color: yellowgreen;
+}
+
+/* unvisited */
+a:link{
+       color: violet;
+}
+/* when the url is visited */
+a:visited{
+       color: turquoise;
+}
+/* when the element is clicked */
+a:active{
+       font-size: 19px;
+}
+
+a:hover{
+       color: tomato;
+}
+
+/* phesudo Element */
+
+h1::before{
+       content: "🍕";
+}
+h1::after{
+       content: "🍺";
+}
