@@ -1,0 +1,47 @@
+*{
+       margin: 0;
+       padding: 0;
+}
+div{
+       border: 1px solid;
+       width: 200px;
+       height: 200px;
+       margin: 10px auto;
+
+}
+.box-1{
+       background: linear-gradient(pink,  red, blue);
+       animation: anim 2s infinite alternate steps(1);
+}
+
+.box-2{
+       border: none;
+}
+.box-2 img{
+       border: none;
+       width: 100px;
+}
+.box-3{
+       background: linear-gradient(pink,  red, blue);
+       transform: scale(2);
+}
+.box-4{
+       background: linear-gradient(pink,  red);
+       transform: skew(20deg);
+}
+
+
+@keyframes anim{
+       0%,100%{
+              transform: translate(0);
+       }
+       25%{
+              transform: translate(200px);
+       }
+       50%{
+              transform: translate(200px,200px);
+       }
+       75%{
+              transform: translateY(200px);
+       }
+}
